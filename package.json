@@ -1,0 +1,28 @@
+{
+  "name": "coasterconsole",
+  "version": "1.0.0",
+  "description": "A web service for UK theme parks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js && exit 1;",
+    "start-dev": "nodemon ./index.js && exit 1;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toshimonster/CoasterConsole.git"
+  },
+  "author": "Toshimonster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Toshimonster/CoasterConsole/issues"
+  },
+  "homepage": "https://github.com/Toshimonster/CoasterConsole#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "js-yaml": "^3.11.0",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
